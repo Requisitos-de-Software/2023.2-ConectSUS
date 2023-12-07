@@ -6,10 +6,10 @@ const LoginScreen = () => {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    // Aqui você pode adicionar lógica de autenticação
+    // logica de atetificação
     console.log('Username:', username);
     console.log('Password:', password);
-    // Adicione aqui a lógica de autenticação real (por exemplo, com API)
+    // logica de atetificação
   };
 
   return (
